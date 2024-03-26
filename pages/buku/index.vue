@@ -11,21 +11,21 @@
                     <div class="col-lg-2">
                         <div class="card mb-3">
                             <div class="card-body">
-                                <img src="~/assets/img/antara kita.png" class="cover" alt="cover 1">
+                                <img src="~/assets/img/cover1.png" class="cover" alt="cover 1">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2">
                         <div class="card mb-3">
                             <div class="card-body">
-                                <img src="~/assets/img/cover2.jpg" class="cover" alt="cover 2">
+                                <img src="~/assets/img/laskar pelangi.png" class="cover" alt="cover 2">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2">
                         <div class="card mb-3">
                             <div class="card mb-3">
-                                <img src="~/assets/img/cover3.jpg" class="cover" alt="cover 3">
+                                <img src="~/assets/img/mariposa.png" class="cover" alt="cover 3">
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
 <style scoped>
 .card-body {
     width: 100%;
-    height: 203em;
+    height: 20em;
     padding: 0;
 }
 .cover {

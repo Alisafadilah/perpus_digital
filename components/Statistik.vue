@@ -1,11 +1,11 @@
 <template>
   <div>
-    <canvas id="myChart"></canvas>
+    <canvas id="statistik"></canvas>
   </div>  
 </template>
 
 <script setup>
-import Chart from 'chart.js/auto'
+import Chart from 'chart.js/auto';
 
 const labels = [
   'January',
@@ -19,9 +19,9 @@ const labels = [
 const data = {
   labels: labels,
   datasets: [{
-    label: 'My First dataset',
+    label: 'Pengunjung',
     backgroundColor: 'rgb(255, 99, 132)',
-    borderColor: 'rgb(255, 99, 132)',
+    borderColor: 'rgb(255, 100, 132)',
     data: [0, 10, 5, 2, 20, 30, 45],
   }]
 };
@@ -34,7 +34,7 @@ const config = {
 
 onMounted(() => {
   const myChart = new Chart(
-  document.getElementById('myChart'),
+  document.getElementById('statistik'),
   config
 );
 })
